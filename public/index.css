@@ -1,0 +1,57 @@
+/* Page */
+
+.page {
+	font-family: 'Roboto', sans-serif;
+}
+
+.page__body {
+	margin: 0;
+	display: grid;
+	grid-template-rows: 2fr min-content min-content 5fr;
+	grid-gap: 30px;
+	padding: 0 30px;
+}
+
+/* Header */
+
+.header {
+	padding-top: 35px;
+}
+
+.logo {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+}
+
+/* Video */
+
+.video__area {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+}
+
+.video__item {
+	height: 369px;
+	width: 656px;
+	border-radius: 30px;
+	background-color: silver;
+}
+
+video {
+    transform: rotateY(180deg); 
+}
+
+/* Chat */
+
+.info {
+	text-align: right;
+}
+
+/* Chat */
+
+.chat {
+	border-radius: 10px;
+	background-color: #F3F2F2;
+}
